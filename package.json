@@ -8,6 +8,10 @@
     "kind": "plugin",
     "displayName": "Strapi Indian States"
   },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/vinodkumar937/strapi-indian-states.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "react": "^17.0.2",
