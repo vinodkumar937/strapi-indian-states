@@ -1,0 +1,45 @@
+{
+  "name": "strapi-indian-states",
+  "version": "0.1.0",
+  "description": "Add Indian States & Districts to Strapi Project",
+  "strapi": {
+    "name": "strapi-indian-states",
+    "description": "Add Indian States & Districts to Strapi Project",
+    "kind": "plugin",
+    "displayName": "Strapi Indian States"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "vinod kumar yerramsetty",
+    "email": "vinodkumar937@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "vinod kumar yerramsetty",
+      "email": "vinodkumar937@gmail.com"
+    }
+  ],
+  "keywords": [
+    "strapi",
+    "plugin",
+    "indian states",
+    "indian districts"
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

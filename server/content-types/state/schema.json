@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "states",
+  "info": {
+    "singularName": "state",
+    "pluralName": "states",
+    "displayName": "state"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions":{
+    "content-manager":{
+      "visible":true
+    },
+    "content-type-builder":{
+      "visible":true
+    }
+  },
+  "attributes": {
+    "state": {
+      "type": "string",
+      "unique": true,
+      "configurable": false
+    },
+    "status": {
+      "type": "boolean",
+      "configurable":false
+    },
+    "priority": {
+      "type": "integer",
+      "configurable":false
+    }
+  }
+}
